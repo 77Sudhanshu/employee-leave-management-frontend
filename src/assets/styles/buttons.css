@@ -1,0 +1,15 @@
+.btn-primary{
+
+    background:var(--primary) !important;
+
+    border:none !important;
+
+    transition:var(--transition);
+}
+
+.btn-primary:hover{
+
+    background:var(--primary-dark) !important;
+
+    transform:translateY(-2px);
+}
