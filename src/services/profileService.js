@@ -1,7 +1,8 @@
 import axios from "axios";
 import { getToken } from "../utils/auth";
 
-const API_URL = "http://localhost:8080/profile";
+const API_URL =
+"https://employee-leave-management-backend-a61a.onrender.com/profile";
 
 export const getProfile = () => {
     return axios.get(API_URL, {

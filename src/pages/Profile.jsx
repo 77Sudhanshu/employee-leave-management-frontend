@@ -66,7 +66,7 @@ function Profile() {
                 <img
     src={
         profile.profileImage
-            ? `http://localhost:8080/profile/image/${profile.profileImage}`
+            ? `https://employee-leave-management-backend-a61a.onrender.com/profile/image/${profile.profileImage}`
             : defaultProfile
     }
     alt="Profile"
